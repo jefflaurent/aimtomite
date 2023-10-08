@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --main-blue: #7ccce0;
+}
+
+@font-face {
+
+  font-family: 'brandon';
+  src: url('./fonts/brandon-grotesque-black.otf') format('otf');
+
+  font-family: 'brandon-bi';
+  src: url('./fonts/brandon-grotesque-bold-italic.otf')format('otf');
+
+  font-family: 'brandon-li';
+  src: url('./fonts/brandon-grotesque-light-italic.otf')format('otf');
+
+  font-family: 'brandon-l';
+  src: url('./fonts/brandon-grotesque-light.otf')format('otf');
+
+  font-family: 'brandon-mi';
+  src: url('./fonts/brandon-grotesque-medium-italic.otf')format('otf');
+
+  font-family: 'brandon-ri';
+  src: url('./fonts/brandon-grotesque-regular-italic.otf')format('otf');
+
+  font-family: 'brandon-ti';
+  src: url('./fonts/brandon-grotesque-thin-italic.otf')format('otf');
+
+}
+
+@media (max-width: 767px) {
+  .big-title {
+      font-size: 0.9em;
+      font-family: monospace;
+      font-weight: bolder;
+      font-style: italic;
+  }
+  
+  .bigger-title {
+      font-size: 1.2em;
+      font-family: monospace;
+      font-weight: bolder;
+      font-style: italic;
+  }
+
+  .card-title {
+      font-size: 1em;
+      font-family: monospace;
+      font-weight: bolder;
+      font-style: italic;
+  }
+
+  .card-subtitle {
+    font-size: 0.8em;
+    font-family: monospace;
+    font-style: italic;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .big-title {
+      font-size: 1.1em;
+      font-family: monospace;
+      font-weight: bolder;
+      font-style: italic;
+  }
+  
+  .bigger-title {
+      font-size: 1.3em;
+      font-family: monospace;
+      font-weight: bolder;
+      font-style: italic;
+  }
+
+  .card-title {
+      font-size: 0.8em;
+      font-family: monospace;
+      font-weight: bolder;
+      font-style: italic;
+  }
+
+  .card-subtitle {
+    font-size: 0.5em;
+    font-family: monospace;
+    font-style: italic;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .big-title {
+      font-size: 1.5em;
+      font-family: monospace;
+      font-weight: bolder;
+      font-style: italic;
+  }
+  
+  .bigger-title {
+      font-size: 1.7em;
+      font-family: monospace;
+      font-weight: bolder;
+      font-style: italic;
+  }
+
+  .card-title {
+      font-size: 1em;
+      font-family: monospace;
+      font-weight: bolder;
+      font-style: italic;
+  }
+
+  .card-subtitle {
+    font-size: 0.8em;
+    font-family: monospace;
+    font-style: italic;
+  }
+}
+
+@media (min-width: 1200px) {
+  .big-title {
+      font-size: 1.7em;
+      font-family: monospace;
+      font-weight: bolder;
+      font-style: italic;
+  }
+  
+  .bigger-title {
+      font-size: 2em;
+      font-family: monospace;
+      font-weight: bolder;
+      font-style: italic;
+  }
+
+  .card-title {
+      font-size: 1.2em;
+      font-family: monospace;
+      font-weight: bolder;
+      font-style: italic;
+  }
+
+  .card-subtitle {
+    font-size: 0.9em;
+    font-family: monospace;
+    font-style: italic;
+  }
+
+  .mini-card-title {
+      font-size: 0.9em;
+      font-family: monospace;
+      font-weight: bolder;
+      font-style: italic;
+  }
+
+  .mini-card-subtitle {
+    font-size: 0.8em;
+    font-family: monospace;
+    font-style: italic;
+  }
+}

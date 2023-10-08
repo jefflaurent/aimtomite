@@ -1,0 +1,28 @@
+.img-container img {
+    border-radius: 10px;
+    width: 95%;
+    transition: 0.15s;
+}
+
+.img-container:hover img {
+    scale: 1.02;
+    cursor: pointer;
+}
+
+.title-sect {
+    font-size: 1.2em;   
+}
+
+.desc-sect {
+    font-size: 0.9em;
+}
+
+.btn-outline-primary {
+    color: var(--main-blue);
+    border-color: #2d4464;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0d4452;
+    border-color: #0d4452;
+}

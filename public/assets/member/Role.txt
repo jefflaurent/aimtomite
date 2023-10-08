@@ -1,0 +1,13 @@
+Livander: CEO
+Renata: COO
+Andi: Game Programmer
+Pandu: 3D Animator
+Praduta: 3D Artist
+Daniel: Playtester (Out)
+Adi: Game Programmer, AI Programmer (Out)
+Nabila: Game Programmer, UI/UX Programmer (Out)
+Nissa: 2D Artist
+Widya: 2D Artist
+Jonathan: Quality Assurance
+Marcellino Philip: Quality Assurance, Business Advisor
+Wilson: Business Advisor, Public Relation

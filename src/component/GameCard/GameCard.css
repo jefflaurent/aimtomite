@@ -1,0 +1,61 @@
+.game-box {
+    height: 280px;
+    width: 280px;
+    color: white;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.15s background-image;
+}
+
+.game-box:hover {
+    cursor: pointer;
+}
+
+.game-box-wide {
+    height: 30vh;
+    width: 62vh;
+    color: white;
+    box-sizing: border-box;
+    background-size: contain;
+    transition: 0.15s background-image;
+}
+
+.game-box-title {
+    font-style: normal;
+    color: white;
+}
+
+.game-box-detail {
+    font-size: 0.7em;
+    font-style: normal;
+    color: #ffea97;
+}
+
+@media (max-width: 767px) {
+    .game-box {
+        height: 280px;
+        width: 280px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .game-box {
+        height: 280px;
+        width: 280px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .game-box {
+        height: 280px;
+        width: 280px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .game-box {
+        height: 280px;
+        width: 280px;
+    }
+}

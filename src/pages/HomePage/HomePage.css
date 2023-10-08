@@ -1,0 +1,22 @@
+.bg-home {
+    background-color: #092e37;
+}
+
+hr {
+    border: 0;
+    border-top: 0.3rem solid #ffea97;
+}
+
+.more-btn {
+    background-color: var(--main-blue);
+    color: white;
+    border-radius: 2vh;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.more-btn:hover {
+    cursor: pointer;
+    background-color: #0d4452;
+    transition: 0.2s;
+}
