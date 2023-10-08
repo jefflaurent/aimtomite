@@ -8,7 +8,7 @@ import NewGameCard from "../../component/NewGameCard/NewGameCard";
 import Footer from "../../component/Footer/Footer";
 
 import './HomePage.css'
-import { Fade, Slide } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function HomePage() {
     const featuredGame = [
@@ -164,7 +164,7 @@ function HomePage() {
                         {   
                             featuredGame.map((game, index) => (
                                 <div className="col-10 col-md-4 d-flex justify-content-center align-items-stretch" key={index}>
-                                    <Slide right>
+                                    <Fade>
                                         <div className="col-7 col-md-10">
                                             <NewGameCard
                                                 id={game.id}
@@ -174,7 +174,7 @@ function HomePage() {
                                                 gameUrl={game.url} />
                                         </div>
                                         
-                                    </Slide>
+                                    </Fade>
                                 </div>
                                 
                             ))

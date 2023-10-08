@@ -1,10 +1,7 @@
 import NavBar from "../../component/NavBar/NavBar";
-import GameCard from "../../component/GameCard/GameCard";
 import LSeparator from "../../component/Separator/LSeparator";
-import RSeparator from "../../component/Separator/RSeparator";
 import Separator from "../../component/Separator/Separator";
 import Footer from "../../component/Footer/Footer";
-import { Fade, Slide } from "react-reveal";
 
 import './GamePage.css';
 import GameView from "../../component/GameView/GameView";

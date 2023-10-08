@@ -1,7 +1,5 @@
 import { React } from 'react';
-import { useState } from 'react'; 
 import NewGameCard from '../NewGameCard/NewGameCard';
-import { Slide } from 'react-reveal';
 import './GameView.css';
 
 
@@ -57,16 +55,16 @@ function GameView() {
             <div className="d-flex justify-content-evenly flex-wrap w-100 align-items-center col-12">
                 {   
                     gameData.map((card, index) => (
-                        <Slide right key={index}>
-                            <div className="d-flex flex-column justify-content-center p-2 col-lg-4">
-                                <NewGameCard
-                                    id={card.id}
-                                    imgUrl={card.image}
-                                    gameTitle={card.title}
-                                    gameDesc={card.description}
-                                    gameUrl={card.url} />
-                            </div>
-                        </Slide>
+                        
+                        <div key={index} className="d-flex flex-column justify-content-center p-2 col-lg-4">
+                            <NewGameCard
+                                id={card.id}
+                                imgUrl={card.image}
+                                gameTitle={card.title}
+                                gameDesc={card.description}
+                                gameUrl={card.url} />
+                        </div>
+                        
                     ))
                 }
             </div>
